@@ -7,6 +7,10 @@
     На проверку направить скриншот с командой и результатом ее выполнения
 
 
+Команда:
+
+ rsync -avc --progress /home/cctv/8-03-hw --delete  --exclude '.*' /tmp/backuphw
+
 
 
 Задание 2
