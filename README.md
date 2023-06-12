@@ -11,6 +11,10 @@
 
  rsync -avc --progress /home/cctv/8-03-hw --delete  --exclude '.*' /tmp/backuphw
 
+Результат (исключены скрытые директории и файлы начинающиеся с '.'):
+
+https://github.com/megawebtech/8-03-hw/blob/master/Rez_rsync.PNG
+
 
 
 Задание 2
