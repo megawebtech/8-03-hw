@@ -25,3 +25,8 @@ https://github.com/megawebtech/8-03-hw/blob/master/Rez_rsync.PNG
     Резервная копия размещается локально, в директории /tmp/backup
     На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
+Команда записанная в crontab:
+
+45 21 * * * rsync -ac /home/cctv/8-03-hw --delete /tmp/backup
+
+
